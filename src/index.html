@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  <h1>hola</h1>
+  <div id="leaderboard">
+    <h1>Leaderboard</h1>
+    <div id="container">
+      <section id="scores">
+        <h2 class="score-h2">Recent scores<button class="refresh-btn" type="button">Refresh</button></h2>
+        <ul class="score-list"></ul>
+      </section>
+      <form id="score-form">
+        <h2>Add your score</h2>
+        <input type="text" placeholder="Your name">
+        <input type="text" placeholder="Yoour score">
+        <button class="submit-btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
