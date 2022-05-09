@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#leaderboard {
+  display: flex;
+  flex-direction: column;
+  border: black solid 2px;
+  width: 60%;
+  padding: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+h1 {
+  width: fit-content;
+}
+
+.score-h2 {
+  display: flex;
+  gap: 10px;
+}
+
+#score-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  box-shadow: 3px 3px rgb(72, 72, 72);
+}
+
+.submit-btn {
+  width: fit-content;
+  align-self: flex-end;
+}
