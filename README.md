@@ -17,16 +17,16 @@ Leaderboard list app is a single page website that allows you create a to do lis
 ## Getting Started
 
 Setting up this project locally:
-On your terminal:
-1- Clone this repository to your computer: git clone git@github.com:emiliazm/leaderboard.git.
-2- Open the project on your code editor: "cd Todo-list" and "code ."
-3- Install npm package: npm install.
-4- Run website: npm run start.
+#### On your terminal:
+- Clone this repository to your computer: git clone git@github.com:emiliazm/leaderboard.git.
+- Open the project on your code editor: "cd Todo-list" and "code ."
+- Install npm package: npm install.
+- Run website: npm run start.
 
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://emiliazm.github.io/leaderboard/)
+[Live Demo Link]
 
 
 
