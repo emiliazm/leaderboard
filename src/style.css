@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#leaderboard {
+  display: flex;
+  flex-direction: column;
+  border: black solid 2px;
+  width: 80%;
+  padding: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+h1 {
+  width: fit-content;
+}
+
+.score-h2 {
+  display: flex;
+  gap: 10px;
+}
+
+.score-list {
+  border: solid black 2px;
+  list-style-type: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+.score-list li {
+  background: white;
+  padding: 5px;
+}
+.score-list li:nth-child(odd) { background: lightgray; }
+
+#score-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  box-shadow: 3px 3px rgb(72, 72, 72);
+}
+
+.submit-btn {
+  width: fit-content;
+  align-self: flex-end;
+}
