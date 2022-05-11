@@ -26,7 +26,7 @@ Setting up this project locally:
 
 ## Live Demo (if available)
 
-[Live Demo Link]
+[Live Demo Link] (https://emiliazm.github.io/leaderboard/)
 
 
 
@@ -55,7 +55,7 @@ Re-create your Leaderboard app following the following rules:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/emiliazm/Todo-list/issues).
+Feel free to check the [issues page](https://github.com/emiliazm/leaderboard/issues).
 
 ## Show your support
 
