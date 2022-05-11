@@ -3,7 +3,7 @@ import {
 } from './scores.js';
 
 const uiDisplayScore = async (ulElement, score) => {
-  const insideUl = `<li>${score.user}:${score.score}</li>`;
+  const insideUl = `<li>${score.user} : ${score.score}</li>`;
   ulElement.innerHTML += insideUl;
 };
 
@@ -17,7 +17,8 @@ const uiDisplayScores = async () => {
 
 const uiAddScore = async (e) => {
   e.preventDefault();
-  const user = document.querySelector('#user-name').value;
+  let user = document.querySelector('#user-name').value;
+  user = user.charAt().toUpperCase() + user.slice(1).toLowerCase();
   const score = document.querySelector('#user-score').value;
   const form = document.querySelector('#score-form');
   const focus = document.querySelector('#user-name');
