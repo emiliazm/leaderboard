@@ -3,7 +3,7 @@
 # Leaderboard.
 
 > Hello!
-Leaderboard list app is a single page website that allows you create a to do list. Re-creating this website you will learn how to give some functionality to your sections and make your website more user-interactive. Apart from creating and display a list you will see how to use callbacks and promises, proper ES6 syntax and webpack to bundle JavaScript.
+Leaderboard list app is a single page website that allows you create a score list. Re-creating this website you will see how to give some functionality to your sections and make your website more user-interactive. Apart from creating and display a list you will see how to use callbacks and promises, proper ES6 syntax, webpack to bundle JavaScript and API.
 
 
 ## Built With
@@ -26,16 +26,21 @@ Setting up this project locally:
 
 ## Live Demo (if available)
 
-[Live Demo Link]
+[Live Demo Link] (https://emiliazm.github.io/leaderboard/)
 
 
 
 ### Prerequisites
 
-Re-create your Awesome books app following the rules:
+Re-create your Leaderboard app following the following rules:
+- Make sure that there are no linter errors
+- Make sure that you used correct Gitflow.
+- Make sure that you documented your work in a professional way.
 - Create an npm project with webpack.
-- Use ES6 modules, with import and export.set as a template using the HTML Webpack Plugin.
-
+- Create a new game with the name of your choice by using the API.
+- Implement the "Refresh" button (receiving data from the API and parsing the JSON).
+- Implement the form "Submit" button (sending data to the API).
+- Use async and await JavaScript features to consume the API.
 
 ## Authors
 
@@ -50,7 +55,7 @@ Re-create your Awesome books app following the rules:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/emiliazm/Todo-list/issues).
+Feel free to check the [issues page](https://github.com/emiliazm/leaderboard/issues).
 
 ## Show your support
 
