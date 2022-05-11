@@ -1,5 +1,5 @@
 import {
-  sendNewGame, sendScore, getScoresApi,
+  sendNewGame, sendScoreApi, getScoresApi,
 } from './api.js';
 
 const gameKey = 'gameKey';
@@ -17,8 +17,8 @@ const scores = async () => {
 
 export const addScore = async (user, score) => {
   const newScore = { user, score };
-  const response = await sendScore(gameId, newScore);
-  return response === 'Leaderboard score created correctly.';
+  const response = await sendScoreApi(gameId, newScore);
+  return response === 'Score created correctly.';
 };
 
 export const getScores = async () => {

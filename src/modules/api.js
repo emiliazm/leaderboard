@@ -11,7 +11,7 @@ export const sendNewGame = async (body) => fetch(url, {
   .then((json) => json.result)
   .catch((error) => { throw error; });
 
-export const sendScore = async (gameId, body) => fetch(`${url + gameId}/scores/`, {
+export const sendScoreApi = async (gameId, body) => fetch(`${url + gameId}/scores/`, {
   method: 'POST',
   body: JSON.stringify(body),
   headers: {
