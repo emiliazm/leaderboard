@@ -1,49 +1,88 @@
 body {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  align-items: center;
+  padding: 50px;
+  background-image: url(./images/back.jpg);
+  min-width: 320px;
 }
 
 #leaderboard {
   display: flex;
   flex-direction: column;
   border: black solid 2px;
-  width: 80%;
-  padding: 10px;
+  border-radius: 25px;
+  min-width: 80%;
+  height: 80%;
+  padding: 35px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
 }
 
 #container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 55px;
+  margin-top: 2em;
   padding: 20px;
 }
 
 h1 {
+  color: #fff;
+  text-shadow:
+    0 0 7px rgb(60, 121, 220),
+    0 0 10px rgb(60, 121, 220),
+    0 0 21px rgb(60, 121, 220),
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
   width: fit-content;
+  margin-left: 2rem;
 }
 
-.score-h2 {
+#scores {
+  width: 20em;
+}
+
+h2 {
+  color: #fff;
+  text-shadow:
+    0 0 7px rgb(160, 18, 118),
+    0 0 10px rgb(160, 18, 118),
+    0 0 21px rgb(160, 18, 118),
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
 }
 
 .score-list {
-  border: solid black 2px;
+  border: solid rgb(0, 0, 0) 2px;
+  box-shadow: 3px 3px rgb(72, 72, 72);
   list-style-type: none;
   padding: 0;
   font-weight: bold;
+  width: 100%;
 }
 
 .score-list li {
   background: white;
   padding: 5px;
+  border-bottom: black 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
-.score-list li:nth-child(odd) { background: lightgray; }
 
 #score-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 15em;
 }
 
 button {
@@ -53,4 +92,19 @@ button {
 .submit-btn {
   width: fit-content;
   align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  #leaderboard {
+    height: 100%;
+  }
+
+  #container {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  h1 {
+    margin-left: 20px;
+  }
 }
